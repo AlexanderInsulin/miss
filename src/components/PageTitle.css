@@ -1,0 +1,14 @@
+.page-title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text {
+  font-size: 36px;
+  margin-right: 8px;
+}
+
+.count {
+  font-size: 32px;
+  color: #5800FF;
+}
