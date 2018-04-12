@@ -1,10 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
+import FavoritesPage from "./pages/FavoritesPage";
 
 const App = () => (
   <Router>
-    <Header />
+    <div>
+      <Header />
+
+      <Route exact path="/" component={FavoritesPage}/>
+    </div>
   </Router>
 );
 
