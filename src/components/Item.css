@@ -11,6 +11,9 @@
   padding: 40px;
   background-image: url('https://store.storeimages.cdn-apple.com/8750/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/black/iphone7-black-select-2016?wid=470&hei=556&fmt=png-alpha&.v=1472430037379');
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%, 450px;
+  background-size: 400px, 100%;
 }
 
 .card-header {
