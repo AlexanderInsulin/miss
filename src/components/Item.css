@@ -1,0 +1,44 @@
+.card-container {
+  height: 587px;
+  margin-left: 27px;
+  margin-right: 27px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12),
+    0px 8px 8px 0px rgba(82, 72, 88, 0.24);
+  padding: 40px;
+  background-image: url('https://store.storeimages.cdn-apple.com/8750/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/black/iphone7-black-select-2016?wid=470&hei=556&fmt=png-alpha&.v=1472430037379');
+  background-repeat: no-repeat;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-header-tag {
+  background-color: #d8d8d8;
+  padding: 6px;
+  font-size: 24px;
+}
+
+.card-item-name {
+  font-size: 36px;
+}
+
+.item-coast {
+  margin-top: 35px;
+  margin-left: 40px;
+  font-size: 48px;
+}
+
+.item-date {
+  margin-top: 18px;
+  margin-left: 40px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.43);
+  margin-bottom: 54px;
+}
